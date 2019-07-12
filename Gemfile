@@ -61,7 +61,7 @@ group(:development, :test) do
   # requiring the public_suffix gem which requires Ruby 2
   gem 'addressable', '< 2.5.0'
   gem 'webmock', '~> 3.6.0'
-  gem 'vcr', '~> 2.9'
+  gem 'vcr', '~> 5.0.0'
   gem "hiera-eyaml", :require => false
 end
 
